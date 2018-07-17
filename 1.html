@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>guess_num_js</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-xs-6">
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_1" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_1" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_1" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_2" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_2" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_2" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_3" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_3" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_3" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_4" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_4" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_4" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_5" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_5" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_5" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_6" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_6" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_6" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_7" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_7" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_7" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_8" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_8" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_8" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_9" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_9" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_9" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_10" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_10" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_10" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_11" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_11" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_11" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_12" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_12" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_12" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_13" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_13" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_13" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_14" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_14" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_14" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_15" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_15" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_15" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_16" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_16" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_16" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_17" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_17" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_17" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_18" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_18" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_18" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_19" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_19" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_19" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <input type="text" class="form-control" id="guess_20" />
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="a_20" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">A</label>
+                        </div>
+                        <div class="col col-xs-3">
+                            <input type="text" class="form-control" id="b_20" />
+                        </div>
+                        <div class="col col-xs-1">
+                            <label class="control-label">B</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-xs-6">
+                    <div class="row">
+                        <div class="col col-xs-4">
+                            <label class="control-label" id="lbl_msg"></label>
+                        </div>
+                        <div class="col col-xs-4">
+                            <label class="checkbox-inline" for="dups"><input type="checkbox" name="dups" value="0" id="chk_dups" />有重複</label>
+                        </div>
+                        <div class="col col-xs-4">
+                            <button class="btn btn-default" id="btn_cal">計算</button>
+                            <button class="btn btn-default" id="btn_clear">清除</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <textarea class="form-control" id="result" rows="10"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="1.js"></script>
+    </body>
+
+</html>
